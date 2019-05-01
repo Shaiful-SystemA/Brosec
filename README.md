@@ -1,3 +1,34 @@
+# Good for HTTP server, file transfer 
+https://ch1kpee.com/2016/10/04/my-oscp-experience/
+
+So not only is it handy for hosting your malicious script or PHP, it’s also handy for quickly fuzzing for RFI on a web app.
+
+In fact, I got my foothold on one of the target boxes specifically because I was using this one-liner and it allowed me to see the incoming RFI (and troubleshoot that an additional file extension was getting tagged on and keeping my script from running). 
+
+The /usr/share/ directory: I don’t think they really mention in the lab guides just how much useful stuff is buried in the /usr/share/ tree.  For one thing, it’s the standard location for most application’s associated data, like Metasploit’s module files and buffer overflow scripts or nmap’s NSE scripts.  For another, OffSec has put some really useful stuff in here, like a collection of web shell written in different languages, wordlists for several different brute-forcing purposes, a directory with some useful Windows binaries like nc.exe for you to drop on compromised Windows hosts, and more.
+
+#Pentest interview 
+https://ch1kpee.com/2017/12/11/my-grand-tour-of-pentest-interviews/
+
+Ncat is an updated version of netcat that comes packaged with nmap and supports new features like IPv6, encryption, etc.  There’s plenty of good tutorials online for getting comfortable with it, like this one and this one.  Many Linux and BSD distros use the OpenBSD version of netcat, which disables the “-e” option.  This doesn’t actually stop you from setting up bind shells and reverse shells, only makes it a little more complicated.  More on that later.
+
+If you already know some Python and want to take your pentesting skills with it to the next level, check out this presentation and accompanying series from Primal Security.
+
+# Python security tutorial
+http://www.primalsecurity.net/tutorials/python-tutorials/
+
+http://www.primalsecurity.net/introduction-to-python-for-security-professionals/
+
+
+
+CNS320 – Intro to Pentesting
+https://ch1kpee.com/cns320-intro-to-pentesting/
+
+http://linuxcommand.org/tlcl.php
+https://www.nostarch.com/howlinuxworks2
+
+
+
 ![](https://i.imgur.com/1QyMN3G.png "logo by Vilhaum - https://github.com/vilhaum")
 
 [![Black Hat Arsenal](https://www.toolswatch.org/badges/arsenal/2016.svg)](https://www.toolswatch.org/2016/06/the-black-hat-arsenal-usa-2016-remarkable-line-up/)
